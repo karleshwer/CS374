@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Magic8Ball</string>
+    <string name="header">Magic 8-ball</string>
+    <string name="before_answer">Tap the Magic 8-Ball above to reveal your answer</string>
+</resources>
