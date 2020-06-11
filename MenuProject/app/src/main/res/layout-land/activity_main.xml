@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FDFD96"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button_newAct"
+        android:layout_width="157dp"
+        android:layout_height="82dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="97dp"
+        android:layout_marginBottom="130dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/new_activity"
+        android:textColor="@color/colorAccent"
+        tools:layout_editor_absoluteX="164dp"
+        tools:layout_editor_absoluteY="485dp" />
+
+    <Button
+        android:id="@+id/button_sms"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="53dp"
+        android:layout_marginEnd="513dp"
+        android:background="@color/colorAccent"
+        android:text="@string/sms"
+        android:textColor="@color/colorPrimary" />
+
+    <Button
+        android:id="@+id/button_phone"
+        android:layout_width="203dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_sms"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="218dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="310dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/phone"
+        android:textColor="@color/colorAccent" />
+
+    <Button
+        android:id="@+id/button_web"
+        android:layout_width="203dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_phone"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="513dp"
+        android:background="@color/colorAccent"
+        android:text="@string/web"
+        android:textColor="@color/colorPrimary" />
+
+    <Button
+        android:id="@+id/button_map"
+        android:layout_width="207dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_web"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="219dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="305dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/map"
+        android:textColor="@color/colorAccent" />
+
+    <Button
+        android:id="@+id/button_share"
+        android:layout_width="199dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_map"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="513dp"
+        android:background="@color/colorAccent"
+        android:text="@string/share"
+        android:textColor="@color/colorPrimary" />
+
+</RelativeLayout>
