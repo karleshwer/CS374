@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
                 EditText textBoxKms = (EditText) findViewById(R.id.editTextKms);
                 double miles = Double.valueOf(textBoxMi.getText().toString());
                 double kms = miles / 0.6215;
-                DecimalFormat format = new DecimalFormat("##.##");
+                DecimalFormat format = new DecimalFormat("##.###");
                 textBoxKms.setText(format.format(kms));
             }
         });
