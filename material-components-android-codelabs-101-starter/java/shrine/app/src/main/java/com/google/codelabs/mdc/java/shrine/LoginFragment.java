@@ -6,13 +6,14 @@ import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
-import androidx.fragment.app.Fragment;
 
 import com.google.android.material.button.MaterialButton;
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.android.material.textfield.TextInputLayout;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
 
 /**
  * Fragment representing the login screen for Shrine.
@@ -54,12 +55,10 @@ public class LoginFragment extends Fragment {
         return view;
     }
 
-    // "isPasswordValid" from "Navigate to the next Fragment" section method goes here
-
     /*
-   In reality, this will have more complex logic including, but not limited to, actual
-   authentication of the username and password.
-*/
+        In reality, this will have more complex logic including, but not limited to, actual
+        authentication of the username and password.
+     */
     private boolean isPasswordValid(@Nullable Editable text) {
         return text != null && text.length() >= 8;
     }

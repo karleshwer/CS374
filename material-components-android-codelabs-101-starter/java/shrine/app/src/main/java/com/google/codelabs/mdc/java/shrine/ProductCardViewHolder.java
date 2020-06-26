@@ -1,11 +1,12 @@
 package com.google.codelabs.mdc.java.shrine;
 
-import androidx.recyclerview.widget.RecyclerView;
 import android.view.View;
 import android.widget.TextView;
-import androidx.annotation.NonNull;
 
 import com.android.volley.toolbox.NetworkImageView;
+
+import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.RecyclerView;
 
 public class ProductCardViewHolder extends RecyclerView.ViewHolder {
 
