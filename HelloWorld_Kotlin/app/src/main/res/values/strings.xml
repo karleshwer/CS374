@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">HelloWorld_Kotlin</string>
+    <string name="birthday_str_msg">Happy Birthday to ... *drum roll please* ... ME! :D</string>
+</resources>
